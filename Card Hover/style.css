@@ -1,0 +1,58 @@
+h1{
+  color: #ffffff;
+  text-shadow: 0 0 10px #fff,
+                 0 0 40px #e30426,
+                 0 0 70px #e30426,
+                 0 0 80px #e30426,
+                 0 0 100px #e30426,
+                 0 0 150px #e30426;
+}
+.card {
+    width: 400px;
+    height: 260px;
+    perspective: 1000px;
+    
+  }
+  
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 7);
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    /* background-color: blue; */
+    background-image: url('fornt.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-back {
+    /* background-color: blueviolet; */
+    background-image: url('back.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    color: #fff;
+  }
+  
+  

@@ -1,0 +1,44 @@
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+}
+button {
+    margin-left: 35px;
+    align-items: center;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #84b7eb;
+    color: black;
+  }
+
+.container{
+    background-color: #007bff;
+    align-items: center;
+    border: 5px solid black;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.neon-text {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #001eff,
+                 0 0 70px #001eff,
+                 0 0 80px #001eff,
+                 0 0 100px #001eff,
+                 0 0 150px #001eff;
+  }

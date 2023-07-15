@@ -1,0 +1,21 @@
+.animated-name {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: nameAnimation 2s infinite alternate;
+  }
+  
+  @keyframes nameAnimation {
+    0% {
+      transform: scale(1);
+      color: #3987dc;
+    }
+    50% {
+      transform: scale(1.2);
+      color: #181e1e;
+    }
+    100% {
+      transform: scale(1);
+      color: #38d1a1;
+    }
+  }
+  

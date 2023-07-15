@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Element</title>
+    <style>
+        .bounce{
+            color: palevioletred;
+            text-align: center;
+            animation: bouncing 
+                        0.5s ease
+                        infinite alternate;
+        }
+        @keyframes bouncing{
+            0%{
+                transform: translateY(0px);
+            }
+            100%{
+                transform: translateY(20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bounce">BOUNCY BOUNCY BING BING BOO!</h1>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .share-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .share-icon {
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff00aa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .share-icon:hover {
+    transform: rotate(360deg);
+  }
+  
